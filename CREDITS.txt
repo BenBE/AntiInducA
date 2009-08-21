@@ -1,0 +1,14 @@
+I hereby thank the following persons for their work that builds the foundation for this program to work:
+
+guinnes (DF: guinnes)
+- Support for reading DCU files (Closed Source; Derivative Work in Repository)
+Hagen Reddmann (DP: negaH)
+- DEC (Delphi Encryption Compendium Part I), v5.2
+MaBuSe (DP: MaBuSe)
+- Signature Creation and Modification Detection Tool
+Martok (DF: Martok)
+- Support at implementation
+SunBlack (DF: Heiko)
+- SearchTool, v3.0.1.1
+uall (DF: uall@ogc)
+- uallCollection
