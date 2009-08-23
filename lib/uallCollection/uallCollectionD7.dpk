@@ -1,0 +1,44 @@
+package uallCollectionD7;
+
+{$R *.res}
+{$ALIGN 8}
+{$ASSERTIONS ON}
+{$BOOLEVAL ON}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS OFF}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $75610000}
+{$DESCRIPTION 'uallCollection for Delphi 7'}
+{$IMPLICITBUILD ON}
+
+requires
+  rtl,
+  vcl;
+
+contains
+  uallUtil in 'uallUtil.pas',
+  uallDisasmEx in 'uallDisasmEx.pas',
+  uallHook in 'uallHook.pas',
+  uallKernel in 'uallKernel.pas',
+  uallProcess in 'uallProcess.pas',
+  uallProtect in 'uallProtect.pas',
+  uallRelocHook in 'uallRelocHook.pas',
+  uallTableHook in 'uallTableHook.pas',
+  uallDisasm in 'uallDisasm.pas';
+
+end.
+

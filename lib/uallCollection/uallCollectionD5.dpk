@@ -1,0 +1,43 @@
+package uallCollectionD5;
+
+{$R *.RES}
+{$ALIGN ON}
+{$ASSERTIONS ON}
+{$BOOLEVAL ON}
+{$DEBUGINFO ON}
+{$EXTENDEDSYNTAX ON}
+{$IMPORTEDDATA ON}
+{$IOCHECKS OFF}
+{$LOCALSYMBOLS ON}
+{$LONGSTRINGS ON}
+{$OPENSTRINGS ON}
+{$OPTIMIZATION ON}
+{$OVERFLOWCHECKS OFF}
+{$RANGECHECKS OFF}
+{$REFERENCEINFO OFF}
+{$SAFEDIVIDE OFF}
+{$STACKFRAMES ON}
+{$TYPEDADDRESS OFF}
+{$VARSTRINGCHECKS ON}
+{$WRITEABLECONST ON}
+{$MINENUMSIZE 1}
+{$IMAGEBASE $75610000}
+{$DESCRIPTION 'uallCollection for Delphi 5'}
+{$IMPLICITBUILD ON}
+
+requires
+  vcl50;
+
+contains
+  uallUtil in 'uallUtil.pas',
+  uallDisasmEx in 'uallDisasmEx.pas',
+  uallHook in 'uallHook.pas',
+  uallKernel in 'uallKernel.pas',
+  uallProcess in 'uallProcess.pas',
+  uallProtect in 'uallProtect.pas',
+  uallRelocHook in 'uallRelocHook.pas',
+  uallTableHook in 'uallTableHook.pas',
+  uallDisasm in 'uallDisasm.pas';
+
+end.
+
